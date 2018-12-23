@@ -133,6 +133,10 @@ div.v-padding-64 {
     max-width: 500px;
 }
 
+.content-medium {
+    max-width: 800px;
+}
+
 .content-wide {
     max-width: 1000px;
 }
@@ -148,11 +152,13 @@ div.v-padding-64 {
 }
 
 /*************************
-*   Flex-Container
+*   Alignments
 **************************/
-
-
-
+.vertical-center {
+    position: relative!important;
+    top: 50%;
+    transform: translateY(-50%);
+}
 
 /*************************
 *   Colors
